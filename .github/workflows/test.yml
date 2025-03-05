@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
-          distribution: 'temurin' #temurin은 자바 종류중의 하나.
+          distribution: 'temurin' #temurin은 자바 종류중의 하나
 
       - name: build jar
         working-directory: .
