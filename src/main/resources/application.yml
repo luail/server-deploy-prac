@@ -1,6 +1,6 @@
 spring:
   redis:
-    host: localhost
+    host: local
     port: 6379
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
