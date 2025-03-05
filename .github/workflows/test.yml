@@ -48,7 +48,7 @@ jobs:
               echo "java is already installed"
             fi
             sudo killall java
-            #실행하는부분은 여기
+            #실행하는부분은 여기다
             nohup java -jar /home/ubuntu/build/libs/*.jar \    
             --spring.redis.host=${{secrets.REDIS_HOST}} \
             --spring.datasource.url=jdbc:mariadb://${{secrets.DB_HOST}}:3306/order_system \
